@@ -24,25 +24,31 @@
 
 ## Scope 
 - ExploreAI's exclusive tool was used to analyze mobile signal strength data from the Johannesburg to Cape Town drive, providing valuable insights for network performance enhancement.
-#image
+![data_points_1](https://github.com/Toka008/git-primer/assets/63381061/fffd29a6-822c-4fff-9412-b85fce08e2c4)
+- The accompanying map highlights important locations from the drive between Johannesburg and Cape Town by using Kepler.gl to graphically represent the route and signal dynamics.
 
 ## Geospartial Analysis
 - The study makes the considerable impact that tower clustering, cell tower distance, and mobile device proximity have on signal quality. Locations with subpar signal quality because of tower clustering or device placement at the tower edge were identified by a geospatial analysis.
-#image
+![tower_position_2](https://github.com/Toka008/git-primer/assets/63381061/bdca6249-8f73-485a-9e51-30715566a980)
+- The map shows specific locations along the authorized drive in Cape Town. The clustering of cell towers at Location A results in less-than-ideal signal quality in the surrounding area. On the other hand, Location B's low signal strength is explained by its great distance from the closest cell towers.
 
 ## Population Density
 - According to the investigation, Johannesburg's signal quality is often worse than that of other less populous towns and cities along the route, especially in heavily populated areas.
-#image
+![population_density](https://github.com/Toka008/git-primer/assets/63381061/431ef69a-db5a-4c70-accc-de4d27f354bb)
+- The legend next to the image indicates that the color of the squares serves as a visual representation of population density. The map shows the population density of cities in South Africa.
 
 ## Physical Obstruction
 - Our observations led us to conclude that the signal quality is impacted by the proximity of large structures.
-#image
+![physical_obstruction](https://github.com/Toka008/git-primer/assets/63381061/7a065154-32cd-444f-b295-af2e2749937e)
+- The Randburg, Johannesburg, signal quality maps are displayed with yellow symbols for larger structures and blue symbols for smaller ones. The signal gets stronger farther away but gets weaker closer to big structures. Because there are fewer people living there and fewer buildings, Beaufort West enjoys higher signal quality. Removing physical obstacles is essential to maximize the strength of your mobile signal.
 
 ## Solution Approach
-#image
+![solution_approach](https://github.com/Toka008/git-primer/assets/63381061/958682f9-526e-488f-af80-02d2cf461e4a)
+- The ConnectXplorer App offers a complete network management solution with the integration of the Cell Tower Locator Engine and Network Optimization Engine. While the Network Optimization Engine controls data flow, increases internet speed, and maximizes the use of network resources, the Cell Tower Locator Engine locates the sources of signals. The intuitive app makes it simple to monitor networks and makes wise decisions.
 
 ## Data Pipeline
-#image
+![data_pipeline](https://github.com/Toka008/git-primer/assets/63381061/6c53c453-98f9-46b9-b500-a1011b9afa24)
+- Our process employs an EC2 instance and Streamlit for smooth application deployment, Python for data pre-processing, and secure S3 bucket data storage.
 
 # Limitations
 - The study's shortcomings include its unreliability due to insufficient data on cell tower height, antenna type, frequency, direction of signal propagation, and geographic dynamicity
