@@ -56,6 +56,14 @@
 ## Conclusion
 - The distance between cell towers, population density, and physical obstructions are among the main factors affecting signal quality, as shown by ExploreAI's analysis of mobile signal strength data from Johannesburg to Cape Town.
 - Using a thorough solution approach and data pipeline procedure, ExploreAI's unique tool was used to analyze and optimize network performance with an emphasis on tower clustering, population density, and building sizes.
-- The study ended with suggestions for strengthening mobile signal strength, optimizing network performance, and refining algorithms, as well as providing insightful information for network design and improvement.
+- The study ended with suggestions for strengthening mobile signal strength, optimizing network performance, and refining algorithms, as well as providing insightful information for network design and improvement
+
+## Acknowledgements
+- Special thanks to the project team members for their contributions:
+- Adekemi Folarin
+- Ajirioghene Oguh
+- Aldo Sauls
+- Monde Nkuna
+- Samson Ayankunle
 
 
